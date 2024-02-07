@@ -84,6 +84,7 @@ a {
   font-family: var(--font-text2);
   border-radius: 8px;
   border: 2px solid;
+  background-color: var(--bg-grey);
 }
 .btns {
   display: flex;
@@ -136,6 +137,7 @@ h3 {
   padding: 8px 24px;
   border: 1px solid;
   margin-top: 24px;
+  background-color: var(--bg-white);
 }
 .project {
   display: flex;
@@ -190,4 +192,12 @@ label {
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+.footer-icons {
+  width: 37.5px;
+  height: 37.5px;
+  margin-top: 60px;
+}
+.footer-text {
+  color: var(--light-gray);
 }
